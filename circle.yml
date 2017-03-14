@@ -6,4 +6,4 @@ dependencies:
     - mvn --fail-never dependency:go-offline || true
 compile:
   override:
-    - mvn deploy -Dusername=$$NEXUS_USERNAME -Dpassword=$NEXUS_PASSWORD -DbuildNumber=$CIRCLE_BUILD_NUM -DbuildUrl=$CIRCLE_BUILD_URL
+    - mvn deploy -Dusername=$NEXUS_USERNAME -Dpassword=$NEXUS_PASSWORD -DbuildNumber=$CIRCLE_BUILD_NUM -DbuildUrl=$CIRCLE_BUILD_URL
