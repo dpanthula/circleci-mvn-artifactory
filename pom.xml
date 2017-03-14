@@ -69,7 +69,7 @@
                                 <propertiesFile>publish.properties</propertiesFile>
                             </artifactory>
                             <publisher>
-                                <contextUrl>https://gcartifactory-us.jfrog.info/artifactory</contextUrl>
+                                <contextUrl>http://internal-ArtifactoryPrivateELB-590472301.us-west-2.elb.amazonaws.com</contextUrl>
                                 <username>${username}</username>
                                 <password>${password}</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
