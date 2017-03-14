@@ -2,7 +2,7 @@
 
 ## Build Status
 
-[![CircleCI](https://circleci.com/gh/jainishshah17/circleci-mvn-artifactory.svg?style=svg)](https://circleci.com/gh/jainishshah17/circleci-mvn-artifactory)
+[![CircleCI](http://circle-poc.intuit.com/gh/dpanthula/circleci-mvn-artifactory.svg?style=svg)](http://circle-poc.intuit.com/gh/dpanthula/circleci-mvn-artifactory)
 
 `To make this integration work you will need to have running Artifactory-pro/Artifactory SAAS/Artifactory Enterprise which is acccessible form outside.`
 
